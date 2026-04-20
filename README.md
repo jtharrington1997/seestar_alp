@@ -1,3 +1,13 @@
+> **Harrington fork notes**
+>
+> Fork of [`smart-underworld/seestar_alp`](https://github.com/smart-underworld/seestar_alp) maintained as part of the Harrington Suite to bridge a Seestar S30 telescope into `harrington-photography` via the project's ALPACA HTTP surface.
+>
+> - **Why forked:** pin a known-good revision for production use on `ironman`, and layer in development tooling specific to how this repo is driven from Claude Code sessions.
+> - **Delta from upstream:** additions only — `.claude/`, `AGENTS.md`, `pyproject.toml`, `uv.lock`, `Bruno_notes`. No modifications to device protocol, ALPACA endpoints, or UI.
+> - **Rebase policy:** periodic rebase onto `smart-underworld/seestar_alp:main`. No long-lived divergence in device code.
+
+---
+
 # Seestar_Alp
 
 Seestar ALP is a standalone controller, for command, control, and scheduling of SeeStar telescopes.
@@ -51,4 +61,3 @@ Github source
 
 Releases, and notes can be found on github at:
 <https://github.com/smart-underworld/seestar_alp/releases>
-
